@@ -1,5 +1,5 @@
 /**
- * Tetris By: Riley Power
+ * Tetris By: Emma Power
  * 
  * -<==< CONTROLS >==>-
  * Left Arrow = Move Left
@@ -158,7 +158,7 @@ public class Tetris extends JPanel implements ActionListener{
       g2d.drawString("GAME", 530, 310);
       g2d.drawString("OVER", 530, 350);
       g2d.setFont(new Font("Lucida Sans Typewriter", Font.BOLD, 14));
-      g2d.drawString("By: Riley Power", 530, 390);
+      g2d.drawString("By: Emma Power", 530, 390);
     }
     
     //Paint Score
@@ -934,7 +934,7 @@ public class Tetris extends JPanel implements ActionListener{
     tetrominoColors[6] = Color.ORANGE;
     
     // Constructs JFrame
-    JFrame frame = new JFrame("Tetris | By: Riley Power");
+    JFrame frame = new JFrame("Tetris | By: Emma Power");
     final Tetris tetris = new Tetris();
     frame.add(tetris);
     frame.setSize(boardX + 317 + boardX, 640);
